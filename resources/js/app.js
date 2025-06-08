@@ -5,5 +5,5 @@ import UserInfo from './components/Example';
 const rootElement = document.getElementById('user-info');
 if (rootElement) {
     const root = createRoot(rootElement);
-    root.render(<UserInfo />);
+    root.render(UserInfo);
 }
